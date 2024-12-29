@@ -4,6 +4,8 @@
 
 DEFAULT_ANVIL_KEY := $(PRIVATE_KEY_0) 
 
+ACCOUNT := $(SEPOLIA_PUBLIC_KEY_0)
+
 all: clean remove install update build
 
 # Clean the repo
